@@ -57,7 +57,7 @@ Além de criar e fazer o login de usuários.
 #### Criar um recado
 
 ```http
-  POST /usuario/recados/
+  POST /users/recados/
 ```
 
 | Parâmetro   | Tipo               | Descrição                                   |

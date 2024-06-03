@@ -82,7 +82,7 @@ Além de criar e fazer o login de usuários.
 #### Atualiza recado existente com base no ID do usuario e ID do recado fornecido na URL.
 
 ```http
-  PUT /usuario/recados/:id/:idRecados
+  PUT /users/recados/:id/:idRecados
 ```
 
 | Parâmetro   | Tipo               | Descrição                                   |
@@ -97,7 +97,7 @@ Além de criar e fazer o login de usuários.
 
 ### Exclui um recado com base no ID do recado fornecido na URL.
 ```http
-  DELETE /usuario/recados/:id/idRecados
+  DELETE /users/recados/:id/idRecados
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
